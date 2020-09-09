@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: insurance
-          image: admin9acr.azurecr.io/insurance:latest
+          image: username/insurance:latest
           ports:
             - containerPort: 8080
 #           readinessProbe:
