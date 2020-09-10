@@ -24,6 +24,7 @@ public class Payment {
         this.claimId = claimId;
     }
 
+    // 수정
     @PostPersist
     public void onPostPersist(){
         Processed processed = new Processed();
